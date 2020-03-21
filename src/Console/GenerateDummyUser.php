@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use MessageInfo\RoleDataProvider;
 use MessageInfo\UserAPIDataProvider;
 use MessageInfo\UserListAPIDataProvider;
 use Symfony\Component\Console\Command\Command;
@@ -34,41 +35,42 @@ class GenerateDummyUser extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $role = new RoleDataProvider();
         $users = [
             [
                 'userId' => 1,
                 'email' => 'test1@doctor.com',
-                'role' => 'doctor',
+                'role' => $role->getDoctor(),
                 'stateIso' => 'NW',
             ],
             [
                 'userId' => 2,
                 'email' => 'test2@doctor.com',
-                'role' => 'doctor',
+                'role' => $role->getDoctor(),
                 'stateIso' => 'BY',
             ],
             [
                 'userId' => 3,
                 'email' => 'test1@testcenter.com',
-                'role' => 'testCenter',
+                'role' => $role->getTestCenter(),
                 'stateIso' => 'NW',
             ],
             [
                 'userId' => 4,
                 'email ' => 'test2@testcenter.com',
-                'role' => 'testCenter',
+                'role' => $role->getTestCenter(),
                 'stateIso' => 'BY',
             ],
             [
                 'userId' => 5,
                 'email' => 'test1@labor.com',
-                'role' => 'labor',
+                'role' => $role->getLabor(),
                 'stateIso' => 'NW',
             ],
             [
                 'userId' => 6,
                 'email' => 'test1@labor.com',
-                'role' => 'labor',
+                'role' => $role->getLabor(),
                 'stateIso' => 'BY',
             ],
         ];
