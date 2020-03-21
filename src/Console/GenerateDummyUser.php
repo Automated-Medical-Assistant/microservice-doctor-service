@@ -69,7 +69,7 @@ class GenerateDummyUser extends Command
             ],
             [
                 'userId' => 6,
-                'email' => 'test1@labor.com',
+                'email' => 'test2@labor.com',
                 'role' => $role->getLabor(),
                 'stateIso' => 'BY',
             ],

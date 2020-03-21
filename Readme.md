@@ -41,7 +41,7 @@ now the doctor service generate only a dummy data
 	    },
 	    {
 	        "userId": 6,
-	        "email": "test1@labor.com",
+	        "email": "test2@labor.com",
 	        "role": "labor",
 	        "stateIso": "BY"
 	    }
