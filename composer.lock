@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "automated-medical-assistant/microservice-message-info",
-            "version": "0.3",
+            "version": "0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Automated-Medical-Assistant/microservice-message-info.git",
-                "reference": "d0ab8bd6d05601b869251662009ace985bec3e72"
+                "url": "https://github.com/Automated-Medical-Assistant/packagist-message-info.git",
+                "reference": "91d770eee6a42fd355156c194ce28d32b83ef6e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automated-Medical-Assistant/microservice-message-info/zipball/d0ab8bd6d05601b869251662009ace985bec3e72",
-                "reference": "d0ab8bd6d05601b869251662009ace985bec3e72",
+                "url": "https://api.github.com/repos/Automated-Medical-Assistant/packagist-message-info/zipball/91d770eee6a42fd355156c194ce28d32b83ef6e3",
+                "reference": "91d770eee6a42fd355156c194ce28d32b83ef6e3",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-03-21T13:16:32+00:00"
+            "time": "2020-03-21T20:11:51+00:00"
         },
         {
             "name": "nette/php-generator",
