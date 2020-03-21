@@ -1,4 +1,55 @@
-# API and Console Skeleton
+# Doctor Service
+
+#### Data
+
+now the doctor service generate only a dummy data
+
+![Dummy Data](./demo-data.json)
+
+
+```
+{
+    "Users": [
+	    {
+	        "userId": 1,
+	        "email": "test1@doctor.com",
+	        "role": "doctor",
+	        "stateIso": "NW"
+	    },
+	    {
+	        "userId": 2,
+	        "email": "test2@doctor.com",
+	        "role": "doctor",
+	        "stateIso": "BY"
+	    },
+	    {
+	        "userId": 3,
+	        "email": "test1@testcenter.com",
+	        "role": "testCenter",
+	        "stateIso": "NW"
+	    },
+	    {
+	        "userId": 4,
+	        "role": "testCenter",
+	        "stateIso": "BY"
+	    },
+	    {
+	        "userId": 5,
+	        "email": "test1@labor.com",
+	        "role": "labor",
+	        "stateIso": "NW"
+	    },
+	    {
+	        "userId": 6,
+	        "email": "test1@labor.com",
+	        "role": "labor",
+	        "stateIso": "BY"
+	    }
+	]
+}
+```
+
+
 
 ### init
 
